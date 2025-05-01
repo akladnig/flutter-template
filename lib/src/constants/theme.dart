@@ -180,11 +180,11 @@ class TextStyles {
 // final Color primaryColour = const Color(0xFFE31317);
 const Color secondaryColour = Color(0xFFE3E013);
 
-class TemplateTheme {
+class AppTheme {
   ThemeData theme = ThemeData();
   ThemeMode themeMode = ThemeMode.dark;
 
-  TemplateTheme(ThemeMode mode) {
+  AppTheme(ThemeMode mode) {
     themeMode = mode;
     theme = ThemeData(
       useMaterial3: true,
