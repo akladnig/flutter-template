@@ -92,13 +92,6 @@ class Fonts {
   // etc
 }
 
-class CardStyle {
-  static const width = 300.0;
-  static const height = 400.0;
-  static const imageHeight = 300.0;
-  static const titleAuthorHeight = 300.0;
-}
-
 class SettingsStyle {
   static const width = 200.0;
 }
@@ -140,25 +133,12 @@ class TextStyles {
     height: 1.4,
     color: Colors.white60,
   );
+
   static const TextStyle selectedText = TextStyle(
     fontWeight: FontWeight.normal,
     fontSize: Sizes.small,
     height: 1.4,
     color: menuColour,
-  );
-  static TextStyle selectedLanguage = TextStyle(
-    fontWeight: FontWeight.bold,
-    fontSize: Sizes.large,
-    height: 1.0,
-    color: primaryColour,
-    backgroundColor: foregroundColour,
-  );
-
-  static const TextStyle highlightedText = TextStyle(
-    fontWeight: FontWeight.normal,
-    fontSize: Sizes.medium,
-    height: 1.0,
-    color: textColour,
   );
 
   // Button Styles
@@ -217,7 +197,7 @@ class AppTheme {
       ),
       dividerTheme: DividerThemeData(color: foregroundColour, thickness: 0.0),
       // iconTheme: IconThemeData(color: foregroundColour),
-      iconTheme: IconThemeData(color: Colors.green),
+      // iconTheme: IconThemeData(color: Colors.green),
       // checkboxTheme: CheckboxThemeData(
       //   checkColor: WidgetStateProperty.resolveWith<Color>(
       //       (states) => Colors.transparent),
